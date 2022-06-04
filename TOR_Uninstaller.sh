@@ -1,4 +1,7 @@
 #!bin/bash
+
+#Made by: github.com/fury999io
+
 user=$(whoami)
 cd /opt
 sudo rm -r tor-browser_en-US
