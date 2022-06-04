@@ -1,4 +1,7 @@
 #!bin/bash
+
+#Made by: github.com/fury999io
+
 user=$(whoami)
 wget https://dist.torproject.org/torbrowser/11.0.13/tor-browser-linux64-11.0.13_en-US.tar.xz
 tar -xf tor-browser-linux64-11.0.13_en-US.tar.xz
