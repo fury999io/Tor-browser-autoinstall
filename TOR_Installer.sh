@@ -3,8 +3,8 @@
 #Made by: github.com/fury999io
 
 user=$(whoami)
-wget https://dist.torproject.org/torbrowser/11.5.8/tor-browser-linux64-11.5.8_en-US.tar.xz
-tar -xf tor-browser-linux64-11.5.8_en-US.tar.xz
+wget https://www.torproject.org/dist/torbrowser/12.0.1/tor-browser-linux64-12.0.1_ALL.tar.xz
+tar -xf tor-browser-linux64-12.0.1_ALL.tar.xz
 sudo mv tor-browser_en-US /opt
 cd /opt/tor-browser_en-US
 ./start-tor-browser.desktop --register-app
