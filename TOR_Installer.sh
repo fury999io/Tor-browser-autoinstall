@@ -4,9 +4,9 @@
 
 user=$(whoami)
 wget https://www.torproject.org/dist/torbrowser/12.0.1/tor-browser-linux64-12.0.1_ALL.tar.xz
-tar -xf tor-browser-linux64-12.0.1_ALL.tar.xz
-sudo mv tor-browser_en-US /opt
-cd /opt/tor-browser_en-US
+tar -xf tor-browser
+sudo mv tor-browser /opt
+cd /opt/tor-browser
 ./start-tor-browser.desktop --register-app
 
 echo "Do you want to create a desktop shortcut? (Y/n)"
