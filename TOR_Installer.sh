@@ -4,7 +4,7 @@
 
 user=$(whoami)
 wget https://www.torproject.org/dist/torbrowser/12.0.1/tor-browser-linux64-12.0.1_ALL.tar.xz
-tar -xf tor-browser
+tar -xf tor-browser-linux64-12.0.1_ALL.tar.xz
 sudo mv tor-browser /opt
 cd /opt/tor-browser
 ./start-tor-browser.desktop --register-app
