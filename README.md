@@ -1,4 +1,4 @@
 # TOR_auto-install_Linux
-These bash scripts installs and uninstalls TOR Browser automatically on Linux 
+Bash script to automate Tor browser installion on GNU/Linux systems.
 
-made by: github.com/fury999io
+
