@@ -1,6 +1,6 @@
 #!bin/bash
 
-#Made by: github.com/fury999io
+#created by: github.com/fury999io
 
 user=$(whoami)
 wget https://dist.torproject.org/torbrowser/12.0.4/tor-browser-linux64-12.0.4_ALL.tar.xz
