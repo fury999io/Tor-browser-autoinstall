@@ -3,7 +3,7 @@
 #Made by: github.com/fury999io
 
 user=$(whoami)
-wget https://www.torproject.org/dist/torbrowser/12.0.1/tor-browser-linux64-12.0.1_ALL.tar.xz
+wget https://dist.torproject.org/torbrowser/12.0.4/tor-browser-linux64-12.0.4_ALL.tar.xz
 tar -xf tor-browser-linux64-12.0.1_ALL.tar.xz
 sudo mv tor-browser /opt
 cd /opt/tor-browser
